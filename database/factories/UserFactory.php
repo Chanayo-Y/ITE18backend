@@ -7,38 +7,52 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 
 /**
+ * Factory for generating fake users for seeding/testing.
+ * Matches your custom users table schema.
+ *
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\User>
  */
 class UserFactory extends Factory
 {
-    /**
-     * The current password being used by the factory.
-     */
+
     protected static ?string $password;
 
-    /**
-     * Define the model's default state.
-     *
-     * @return array<string, mixed>
-     */
     public function definition(): array
     {
         return [
-            'name' => fake()->name(),
-            'email' => fake()->unique()->safeEmail(),
-            'email_verified_at' => now(),
+            'userID' => '231-' . str_pad(fake()->unique()->numberBetween(1, 99999), 5, '0', STR_PAD_LEFT),
+            'f_name' => fake()->firstName(),
+            'm_name' => fake()->optional()->firstName(),
+            'l_name' => fake()->lastName(),
             'password' => static::$password ??= Hash::make('password'),
-            'remember_token' => Str::random(10),
+            'email' => fake()->unique()->safeEmail(),
+            'gender' => fake()->randomElement(['M', 'F']),
+            'address' => fake()->address(),
+            'phoneNum' => fake()->numerify('09#########'),
+            'roleID' => fake()->randomElement(['1', '2', '3']),
         ];
     }
 
-    /**
-     * Indicate that the model's email address should be unverified.
-     */
-    public function unverified(): static
+
+
+    public function student(): static
     {
         return $this->state(fn (array $attributes) => [
-            'email_verified_at' => null,
+            'roleID' => '3',
+        ]);
+    }
+
+    public function employee(): static
+    {
+        return $this->state(fn (array $attributes) => [
+            'roleID' => '2',
+        ]);
+    }
+
+    public function admin(): static
+    {
+        return $this->state(fn (array $attributes) => [
+            'roleID' => '1',
         ]);
     }
 }
