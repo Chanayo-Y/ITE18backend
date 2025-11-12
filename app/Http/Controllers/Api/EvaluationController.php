@@ -4,6 +4,10 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Evaluation;
+use App\Models\Student;
+use App\Models\Rate;
+use App\Models\Employee;   
 
 class EvaluationController extends Controller
 {

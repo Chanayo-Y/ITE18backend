@@ -4,6 +4,10 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Appointment;
+use App\Models\User;
+use App\Models\Employee;
+use App\Models\Status;
 
 class AppointmentController extends Controller
 {

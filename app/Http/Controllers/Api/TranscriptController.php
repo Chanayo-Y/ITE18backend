@@ -4,6 +4,9 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Transcript;
+use App\Models\Student;
+use App\Models\Grade;
 
 class TranscriptController extends Controller
 {

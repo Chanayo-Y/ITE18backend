@@ -4,6 +4,11 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Enrollment;
+use App\Models\Student;
+use App\Models\Year;
+use App\Models\Status;
+use App\Models\ClassSched;
 
 class EnrollmentController extends Controller
 {

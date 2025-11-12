@@ -4,6 +4,10 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\ClassSched;
+use App\Models\Employee;
+use App\Models\Room;
+use App\Models\Subject; 
 
 class Class_SchedController extends Controller
 {

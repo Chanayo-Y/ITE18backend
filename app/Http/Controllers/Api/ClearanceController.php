@@ -4,6 +4,10 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Clearance;
+use App\Models\Student;
+use App\Models\Status;
+use App\Models\Department;
 
 class ClearanceController extends Controller
 {

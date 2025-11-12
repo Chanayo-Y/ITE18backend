@@ -4,6 +4,10 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\ActivateAccount;
+use App\Models\Student;
+
+
 
 class Activate_AccountController extends Controller
 {
