@@ -1,0 +1,602 @@
+[2025-11-06 00:28:42] local.ERROR: Command "make:" is ambiguous.
+Did you mean one of these?
+    make:cache-table         Create a migration for the cache databas...
+    make:cast                Create a new custom Eloquent cast class
+    make:channel             Create a new channel class
+    make:class               Create a new class
+    make:component           Create a new view component class
+    make:config              Create a new configuration file
+    make:command             Create a new Artisan command
+    make:controller          Create a new controller class
+    make:enum                Create a new enum
+    make:event               Create a new event class
+    make:exception           Create a new custom exception class
+    make:factory             Create a new model factory
+    make:interface           Create a new interface
+    make:job                 Create a new job class
+    make:job-middleware      Create a new job middleware class
+    make:listener            Create a new event listener class
+    make:mail                Create a new email class
+    make:middleware          Create a new HTTP middleware class
+    make:model               Create a new Eloquent model class
+    make:notification        Create a new notification class
+    make:notifications-table Create a migration for the notifications...
+    make:observer            Create a new observer class
+    make:policy              Create a new policy class
+    make:provider            Create a new service provider class
+    make:queue-failed-table  Create a migration for the failed queue ...
+    make:queue-table         Create a migration for the queue jobs da...
+    make:queue-batches-table Create a migration for the batches datab...
+    make:request             Create a new form request class
+    make:resource            Create a new resource
+    make:rule                Create a new validation rule
+    make:scope               Create a new scope class
+    make:seeder              Create a new seeder class
+    make:session-table       Create a migration for the session datab...
+    make:test                Create a new test class
+    make:trait               Create a new trait
+    make:view                Create a new view
+    make:migration           Create a new migration file. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:\" is ambiguous.
+Did you mean one of these?
+    make:cache-table         Create a migration for the cache databas...
+    make:cast                Create a new custom Eloquent cast class
+    make:channel             Create a new channel class
+    make:class               Create a new class
+    make:component           Create a new view component class
+    make:config              Create a new configuration file
+    make:command             Create a new Artisan command
+    make:controller          Create a new controller class
+    make:enum                Create a new enum
+    make:event               Create a new event class
+    make:exception           Create a new custom exception class
+    make:factory             Create a new model factory
+    make:interface           Create a new interface
+    make:job                 Create a new job class
+    make:job-middleware      Create a new job middleware class
+    make:listener            Create a new event listener class
+    make:mail                Create a new email class
+    make:middleware          Create a new HTTP middleware class
+    make:model               Create a new Eloquent model class
+    make:notification        Create a new notification class
+    make:notifications-table Create a migration for the notifications...
+    make:observer            Create a new observer class
+    make:policy              Create a new policy class
+    make:provider            Create a new service provider class
+    make:queue-failed-table  Create a migration for the failed queue ...
+    make:queue-table         Create a migration for the queue jobs da...
+    make:queue-batches-table Create a migration for the batches datab...
+    make:request             Create a new form request class
+    make:resource            Create a new resource
+    make:rule                Create a new validation rule
+    make:scope               Create a new scope class
+    make:seeder              Create a new seeder class
+    make:session-table       Create a migration for the session datab...
+    make:test                Create a new test class
+    make:trait               Create a new trait
+    make:view                Create a new view
+    make:migration           Create a new migration file. at C:\\laragon\\www\\myschool\\vendor\\symfony\\console\\Application.php:781)
+[stacktrace]
+#0 C:\\laragon\\www\\myschool\\vendor\\symfony\\console\\Application.php(298): Symfony\\Component\\Console\\Application->find('make:')
+#1 C:\\laragon\\www\\myschool\\vendor\\symfony\\console\\Application.php(195): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\laragon\\www\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\laragon\\www\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\laragon\\www\\myschool\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#5 {main}
+"} 
+[2025-11-06 00:29:52] local.ERROR: Command "make:create_students_table" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:config
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:create_students_table\" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:config
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view at C:\\laragon\\www\\myschool\\vendor\\symfony\\console\\Application.php:740)
+[stacktrace]
+#0 C:\\laragon\\www\\myschool\\vendor\\symfony\\console\\Application.php(298): Symfony\\Component\\Console\\Application->find('make:create_stu...')
+#1 C:\\laragon\\www\\myschool\\vendor\\symfony\\console\\Application.php(195): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\laragon\\www\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\laragon\\www\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\laragon\\www\\myschool\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#5 {main}
+"} 
+[2025-11-06 01:24:11] local.ERROR: Command "make:create_roles_table" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:config
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:create_roles_table\" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:config
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view at C:\\laragon\\www\\myschool\\vendor\\symfony\\console\\Application.php:740)
+[stacktrace]
+#0 C:\\laragon\\www\\myschool\\vendor\\symfony\\console\\Application.php(298): Symfony\\Component\\Console\\Application->find('make:create_rol...')
+#1 C:\\laragon\\www\\myschool\\vendor\\symfony\\console\\Application.php(195): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\laragon\\www\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\laragon\\www\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\laragon\\www\\myschool\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#5 {main}
+"} 
+[2025-11-08 11:38:25] local.ERROR: Cannot redeclare App\Models\User::$primaryKey {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare App\\Models\\User::$primaryKey at C:\\Users\\Allan\\Documents\\myschool\\app\\Models\\User.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-12 07:58:03] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 07:58:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 07:58:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 07:58:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 07:59:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 07:59:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:00:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:00:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:01:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:02:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:02:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:02:58] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\Users\\Allan\\Documents\\myschool\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#9 {main}
+"} 
+[2025-11-12 08:03:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:03:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:04:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:04:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:05:28] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\Users\\Allan\\Documents\\myschool\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#9 {main}
+"} 
+[2025-11-12 08:05:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:05:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:06:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:07:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:07:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:08:34] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:08:34] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:08:34] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:09:02] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\Users\\Allan\\Documents\\myschool\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#9 {main}
+"} 
+[2025-11-12 08:09:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2025-11-12 08:09:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\Users\\Allan\\Documents\\myschool\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): require()
+#1 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(99): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(80): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\Users\\\\Allan\\\\...', Array)
+#3 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#4 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Allan\\Documents\\myschool\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
