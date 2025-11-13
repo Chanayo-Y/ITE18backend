@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 use App\Models\Student;
 use App\Models\Program;
 use App\Models\Yearlvl;
-use App\Models\User;
 
 class StudentController extends Controller
 {
