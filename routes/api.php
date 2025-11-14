@@ -1,19 +1,37 @@
 <?php
-use App\Http\Controllers\AuthController;
-use App\Http\Controllers\StudentController;
-use App\Http\Controllers\AttendanceController;
+
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\StudentController;
+use App\Http\Controllers\Api\EmployeeController;
+// add other controllers as needed
 
-Route::post('auth/register', [AuthController::class, 'register']);
-Route::post('auth/login', [AuthController::class, 'login']);
+/*
+|--------------------------------------------------------------------------
+| API Routes
+|--------------------------------------------------------------------------
+*/
 
-Route::middleware('auth:api')->group(function () {
-    Route::post('auth/logout', [AuthController::class,'logout']);
-    Route::get('auth/me', [AuthController::class,'me']);
+// PUBLIC ROUTES
+Route::post('/login', [AuthController::class, 'login']);
+Route::post('register', [AuthController::class, 'register']); // if you have register
 
-    // Students CRUD
-    Route::apiResource('students', StudentController::class);
+// PROTECTED ROUTES (require login / token)
+Route::middleware('auth:sanctum')->group(function () {
 
-    // Attendances: index, show, create, update, delete
-    Route::apiResource('attendances', AttendanceController::class);
+    // Students 
+    Route::get('students', [StudentController::class, 'index']);       // list all students
+    Route::get('students/{id}', [StudentController::class, 'show']);   // view a single student
+    Route::post('students', [StudentController::class, 'store']);      // create student
+    Route::put('students/{id}', [StudentController::class, 'update']); // update student
+    Route::delete('students/{id}', [StudentController::class, 'destroy']); // delete student
+
+    // Employees
+    Route::get('employees', [EmployeeController::class, 'index']);
+    Route::get('employees/{id}', [EmployeeController::class, 'show']);
+    Route::post('employees', [EmployeeController::class, 'store']);
+    Route::put('employees/{id}', [EmployeeController::class, 'update']);
+    Route::delete('employees/{id}', [EmployeeController::class, 'destroy']);
+
 });
