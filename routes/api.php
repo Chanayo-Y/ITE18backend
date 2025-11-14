@@ -1,19 +1,13 @@
 <?php
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\AuthController;
-use App\Http\Controllers\StudentController;
-use App\Http\Controllers\AttendanceController;
-use Illuminate\Support\Facades\Route;
 
-Route::post('auth/register', [AuthController::class, 'register']);
-Route::post('auth/login', [AuthController::class, 'login']);
+Route::post('/register', [UserController::class, 'register']);
+Route::post('/login', [AuthController::class, 'login']);
 
 Route::middleware('auth:api')->group(function () {
-    Route::post('auth/logout', [AuthController::class,'logout']);
-    Route::get('auth/me', [AuthController::class,'me']);
-
-    // Students CRUD
-    Route::apiResource('students', StudentController::class);
-
-    // Attendances: index, show, create, update, delete
-    Route::apiResource('attendances', AttendanceController::class);
+    Route::get('/users', [UserController::class, 'index']);
+    Route::get('/users/{id}', [UserController::class, 'show']);
+    Route::put('/users/{id}', [UserController::class, 'update']);
+    Route::delete('/users/{id}', [UserController::class, 'destroy']);
 });
